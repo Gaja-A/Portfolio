@@ -1,4 +1,4 @@
-# React Portfolio App
+# React Portfolio
 
 ### packages to install
 - npm install react-bootstrap bootstrap
