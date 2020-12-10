@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.af4bffce.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a7e5513f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a7e5513f.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.cfeecd6c.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.cfeecd6c.js.map",
+    "static/css/2.bc86c968.chunk.css": "/Portfolio/static/css/2.bc86c968.chunk.css",
+    "static/js/2.a0dc668a.chunk.js": "/Portfolio/static/js/2.a0dc668a.chunk.js",
+    "static/js/2.a0dc668a.chunk.js.map": "/Portfolio/static/js/2.a0dc668a.chunk.js.map",
+    "static/js/3.caed2c3d.chunk.js": "/Portfolio/static/js/3.caed2c3d.chunk.js",
+    "static/js/3.caed2c3d.chunk.js.map": "/Portfolio/static/js/3.caed2c3d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.bc86c968.chunk.css.map": "/Portfolio/static/css/2.bc86c968.chunk.css.map",
+    "static/css/main.af4bffce.chunk.css.map": "/Portfolio/static/css/main.af4bffce.chunk.css.map",
+    "static/js/2.a0dc668a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a0dc668a.chunk.js.LICENSE.txt",
+    "static/media/art-home.fb545574.jpg": "/Portfolio/static/media/art-home.fb545574.jpg",
+    "static/media/art-product.0f334cf7.jpg": "/Portfolio/static/media/art-product.0f334cf7.jpg",
+    "static/media/auchan.b185ad55.png": "/Portfolio/static/media/auchan.b185ad55.png",
+    "static/media/App.css": "/Portfolio/static/media/background.e85b799c.gif",
+    "static/media/category-page.55444c5c.png": "/Portfolio/static/media/category-page.55444c5c.png",
+    "static/media/collection.435226d6.jpg": "/Portfolio/static/media/collection.435226d6.jpg",
+    "static/media/crazyart-logo.0d1f1aa5.jpg": "/Portfolio/static/media/crazyart-logo.0d1f1aa5.jpg",
+    "static/media/ffam-logo.ce23554b.jpg": "/Portfolio/static/media/ffam-logo.ce23554b.jpg",
+    "static/media/ffam-ori.c968205d.jpg": "/Portfolio/static/media/ffam-ori.c968205d.jpg",
+    "static/media/ffam.0af5f7ac.jpg": "/Portfolio/static/media/ffam.0af5f7ac.jpg",
+    "static/media/home-page.bbdb032f.png": "/Portfolio/static/media/home-page.bbdb032f.png",
+    "static/media/lyreco.31d7f20d.png": "/Portfolio/static/media/lyreco.31d7f20d.png",
+    "static/media/moondream-logo.87f956d7.jpg": "/Portfolio/static/media/moondream-logo.87f956d7.jpg",
+    "static/media/product-page.6f65abae.png": "/Portfolio/static/media/product-page.6f65abae.png",
+    "static/media/profile.0d765c2c.png": "/Portfolio/static/media/profile.0d765c2c.png",
+    "static/media/societe-generale.3901a0e8.png": "/Portfolio/static/media/societe-generale.3901a0e8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfeecd6c.js",
+    "static/css/2.bc86c968.chunk.css",
+    "static/js/2.a0dc668a.chunk.js",
+    "static/css/main.af4bffce.chunk.css",
+    "static/js/main.a7e5513f.chunk.js"
+  ]
+}
