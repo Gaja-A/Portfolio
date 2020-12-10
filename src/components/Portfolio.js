@@ -1,10 +1,10 @@
 
 import Modal from "react-bootstrap/Modal";  /* BOOTSTRAP MODAL */
 
-import PortfolioGti from '../PortfolioDetails/PortfolioGti'
-import PortfolioNet from '../PortfolioDetails/PortfolioNet'
-import PortfolioFfam from '../PortfolioDetails/PortfolioFfam'
-import PortfolioArt from '../PortfolioDetails/PortfolioArt'
+import PortfolioGti from '../portfolios/PortfolioGti'
+import PortfolioNet from '../portfolios/PortfolioNet'
+import PortfolioFfam from '../portfolios/PortfolioFfam'
+import PortfolioArt from '../portfolios/PortfolioArt'
 
 import MoondreamLogo from '../img/moondream-logo.jpg'
 import NetfirstLogo from '../img/netfirst-logo.jpg'
