@@ -2,7 +2,7 @@ import './App.css';
 import './Main.js';
 
 import $ from 'jquery';
-import { FaHome, FaUser, FaFile, FaCode, FaEnvelope, FaLaptopCode, FaBars, FaArrowUp } from 'react-icons/fa';  /* FONT AWESOME ICONS */
+import { FaHome, FaUser, FaFile, FaCode, FaLaptopCode, FaBars, FaArrowUp, FaToolbox } from 'react-icons/fa';  /* FONT AWESOME ICONS */
 
 import About from './components/About'
 import Contact from './components/Contact'
@@ -32,8 +32,8 @@ const App = () => {
             <li><a href="#about"><FaUser /> <span>{t("nav_profile")}</span></a></li>
             <li><a href="#skills"><FaCode /> <span>{t("nav_skills")}</span></a></li>
             <li><a href="#resume"><FaFile /> <span>{t("nav_parcours")}</span></a></li>
+            <li><a href="#tools"><FaToolbox /> <span>{t("nav_tools")}</span></a></li>
             <li><a href="#portfolio"><FaLaptopCode /> <span>{t("nav_portfolio")}</span></a></li>
-            <li><a href="#contact"><FaEnvelope /> <span>{t("nav_contact_me")}</span></a></li>
           </ul>
         </nav>
       </header>

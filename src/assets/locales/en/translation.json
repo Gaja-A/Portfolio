@@ -3,7 +3,8 @@
     "nav_profile": "Profile",
     "nav_skills": "Skills",
     "nav_parcours": "Parcours",
-    "nav_portfolio": "Portfolio",
+    "nav_tools": "Tools",
+    "nav_portfolio": "Projects",
     "nav_contact_me": "Contact me",
     "job_title": "Web Developer Integrator",
 
@@ -93,12 +94,12 @@
     "language_2": "French",
     "language_3": "Tamil",
 
-    "portfolio": "Portfolios",
+    "portfolio": "Projects",
     "project_info": "Project Information",
     "project_cat": "Category",
     "project_client": "Client",
     "project_motive": "Motive",
-    "project_url": "URL",
+    "project_url": "Url",
     "personal_project": "Personal Project",
     "project": "Project",
     
@@ -109,13 +110,13 @@
     "project_desc_2": "Netfirst is an agency expert in digitalisation created in 2011. At Netfirst, I have worked for many clients such as Auchan, Lyreco, Société Générale, Atout France, Chanel, Groupe Arcade and many others. My tasks include the designing of a new and existing website in responsive mode using HTML5, CSS3, Javascript, Bootstrap4 and jQuery; and the development of welcome panels in digital publishing mode.",
     
     "project_cat_3": "Web Integration and Development",
-    "project_desc_3": "Moondream is a brand of the Brunswick Company founded in 1909. It is an e-commerce site where I have worked on development and integration projects by applying an agile methodology using technologies such as HTML5, CSS3, Webpack (SASS & SCSS), Javascript, jQuery, Bootstrap4, PHP(v5), MySQL, Twig, Smarty, Prestashop(v1). 5 - v1.7) and tools such as Git and Gitlab, Redmine, Asana; and I have also worked on SQL queries based on the client's requirements.",
+    "project_desc_3": "Moondream is a brand of the Brunswick Company founded in 1909. It is an e-commerce site where I have worked on development and integration projects by applying an agile methodology using technologies such as HTML5, CSS3, Webpack(SASS & SCSS), Javascript, jQuery, Bootstrap4, PHP(v5), MySQL, Twig, Smarty, Prestashop(v1.5 - v1.7) and tools such as Git and Gitlab, Redmine, Asana; and I have also worked on SQL queries based on the client's requirements.",
     
     "project_cat_4": "Website creation in React",
     "project_desc_4": "Crazy Artsy is an e-commerce website created in 2020 for my personal project using React.js, Bootstrap4 and jQuery.",
    
     "project_cat_5": "Portfolio using React",
-    "project_desc_5": "I have created my portfolio using Reactjs, Bootstrap, jQuery, Javascript, CSS3, HTML5 and using react packages like material-ui, aos, icons, i18next. In my portfolio, I briefly explained my background and my project details.",
+    "project_desc_5": "I have created my portfolio using Reactjs, Bootstrap, jQuery, Javascript, CSS3, HTML5 and using react packages like material-ui, aos, icons, i18next. In my portfolio, I briefly explained my background and my projects in detail.",
   
     "contact": "Contact me",
     "mail": "Write me at",
