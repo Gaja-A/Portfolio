@@ -1,11 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel'
-import Home from '../img/art-home.jpg'
-import Collection from '../img/art-collection.jpg'
-import Product from '../img/art-product.jpg'
+import Home from '../img/resume.jpg'
+import Projects from '../img/portfolio.jpg'
 
 import { useTranslation } from "react-i18next";
 
-const PortfolioArt = () => {
+const PortfolioMe = () => {
   const { t } = useTranslation();
 
   return (
@@ -28,14 +27,7 @@ const PortfolioArt = () => {
                 <Carousel.Item interval={5000}>
                   <img
                     className="d-block w-100"
-                    src= {Collection} alt="Collections"
-                  />
-                </Carousel.Item>
-
-                <Carousel.Item interval={5000}>
-                  <img
-                    className="d-block w-100"
-                    src= {Product} alt="Œuvres d'art"
+                    src= {Projects} alt="Collections"
                   />
                 </Carousel.Item>
               </Carousel>
@@ -45,13 +37,12 @@ const PortfolioArt = () => {
             <div className="col-lg-5 portfolio-info">
               <h3>{t("project_info")}</h3>
               <ul>
-                <li><strong>{t("project_cat")}</strong>: {t("project_cat_4")}</li>
+                <li><strong>{t("project_cat")}</strong>: {t("project_cat_5")}</li>
                 <li><strong>{t("project_motive")}</strong>: {t("personal_project")} </li>
-                <li><strong>{t("project_url")}</strong>: <a target="_blank" rel="noopener noreferrer" href="http://gaja-a.github.io/crazy-artsy/">http://gaja-a.github.io/crazy-artsy</a></li>
+                <li><strong>{t("project_url")}</strong>: <a target="_blank" rel="noopener noreferrer" href="http://gaja-a.github.io/Portfolio/">http://gaja-a.github.io/portfolio</a></li>
               </ul>
-              <p className="portfolio-desc">{t("project_desc_4")}</p>
+              <p className="portfolio-desc">{t("project_desc_5")}</p>
             </div>
-
           </div>
 
         </div>
@@ -60,4 +51,4 @@ const PortfolioArt = () => {
   )
 }
 
-export default PortfolioArt
+export default PortfolioMe

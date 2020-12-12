@@ -1,0 +1,123 @@
+{
+    "nav_home": "Accueil",
+    "nav_profile": "Profile",
+    "nav_skills": "Compétences",
+    "nav_parcours": "Parcours",
+    "nav_portfolio": "Portfolio",
+    "nav_contact_me": "Contactez-moi",
+    "job_title": "Développeuse Intégratrice Web",
+
+    "profile_desc": "Passionné par la réalisation et les nouvelles technologies et le développement de projets web, je me suis tout naturellement orienté vers une carrière de développeuse web et j'ai donc décidé de m'intégrer vers ce domaine qui m'a toujours intéressé.",
+    "profile_title": "Développeuse et intégratrice web",
+    "profile_sub": "Mes compétences dans le développement web sont renforcées par mes formations spécialisées. Je suis une personne autonome avec de bonnes compétences techniques. À cela s'ajoutent mes qualités d'analyse, ma rigueur et ma maîtrise de l'anglais.",
+
+    "dob_title": "Date de naissance",
+    "mobile_title": "Portable",
+    "email": "Email",
+    "license_title": "Permis",
+    "city_title": "Ville",
+    "age_title": "Âge",
+    "nationality_title": "Nationalité",
+    "travel_title": "Mobilité",
+    
+    "dob": "14 Avril 1997",
+    "driving_license": "B",
+    "city": "Garges-lès-Gonesse, FR",
+    "age": "23 ans",
+    "nationality": "Française",
+    "travel": "Île-de-France, FR",
+    "profile_sub_desc": "Je suis un candidat très motivé et dévoué, doté de bonnes compétences techniques. Ma forte motivation, ma capacité d'adaptation et mon potentiel sont d'autres atouts qui seront bénéfiques au développement d'une entreprise.",
+    
+    "skill_title": "Compétences",
+    "skill_desc": "Mon parcours, complété par ma passion pour l'internet et l'informatique, m'a permis d'acquérir les connaissances techniques et pratiques indispensables à l'exercice du métier de web. Maîtrisant différents langages informatiques, je désire confirmer mes compétences en matière de création et de développement d'applications, de progiciels et de sites web.",
+
+    "resume": "Parcours",
+    "resume_title": "Diplômes et Formations",
+    
+    "resume_item_title_1": "Concepteur Développer Front End",
+    "resume_item_level_1": "Certification TOSA",
+    "resume_item_place_1": "GRETA 92, Boulogne-Billancourt, FR",
+    "resume_item_desc_1": "Maîtriser toute la chaine de développement front end, des spécifications préliminaires à la production et à la maintenance en passant par le codage. Et développer de bonnes compétences en Reactjs.",
+
+    "resume_item_title_2": "Expert Digital Architecte Web",
+    "resume_item_level_2": "Master II - Formation",
+    "resume_item_place_2": "Digital School of Paris, Paris, FR",
+    "resume_item_desc_2": "Capacité de superviser un service informatique. Et en plus de l'expertise web, des connaissances acquises dans le domaine de la gestion.",
+      
+    "resume_item_title_3": "Concepteur Développeur Informatique",
+    "resume_item_level_3": "Master I - Diplômé",
+    "resume_item_place_3": "GRETA MTE 93, Montreuil, FR",
+    "resume_item_desc_3": "En fonction de l'analyse des besoins, participer à la phase de spécification détaillée, et mettre en œuvre la solution avec les technologies retenues.",
+   
+    "resume_item_title_4": "Licence en applications informatiques",
+    "resume_item_level_4": "Licence - Diplômé",
+    "resume_item_place_4": "Saradha Gangadharan College, Pondichéry, INDE",
+    "resume_item_desc_4": "Traite des bases du développement de logiciels et des applications informatiques.",
+   
+    "certification_title": "Certifications",
+    "certification_item_title_1": "Responsive Web Design",
+    "certification_item_place_1": "freeCodeCamp, Formation à distance",
+    "certification_item_desc_1": "Voir la référence",
+   
+    "experience_title": "Expériences professionnelles",
+    "experience_contract_1": "Alternance",
+    "experience_contract_2": "Stage",
+    "experience_contract_3": "CDD",
+
+    "experience_item_title_1": "Intégratrice Développeuse Web",
+    "experience_item_place_1": "Gestion Textile Internationale, Aubervilliers, FR",
+    "experience_item1_li_1": "Assurer la maintenance et l'optimisation des sites dans 14 pays via Prestashop",
+    "experience_item1_li_2": "Gérer la migration des sites",
+    "experience_item1_li_3": "Analyser des problèmes techniques",
+    "experience_item1_li_4": "Effectuer des tests et créer une interface ergonomique",
+    "experience_item1_li_5": "Suivre la qualité des développements : code review, tests, mise en préproduction et production",
+
+    "experience_item_title_2": "Développeuse Front-end",
+    "experience_item_place_2": "Agence Netfirst, Asnières-sur-Seine, FR",
+    "experience_item2_li_1": "Développer des panneaux d'accueil responsive",
+    "experience_item2_li_2": "Concevoir des sites web",
+    "experience_item2_li_3": "Faire des productions sur l'outil d'édition numérique",
+    "experience_item2_li_4": "Rechercher des solutions techniques diverses",
+
+    "experience_item_title_3": "Conceptrice Web",
+    "experience_item_place_3": "Fédération Française des Associations de sauvegarde des Moulins, Noisy-le-Grand, FR",
+    "experience_item3_li_1": "Réaliser le rétro-ingénierie sur le site FFAM",
+    "experience_item3_li_2": "Cartographier la totalité du site",
+    "experience_item3_li_3": "Repérer les doublons et les faiblesses actuelles",
+    "experience_item3_li_4": "Comprendre la base de données et ses interfaces avec les pages",
+    "experience_item3_li_5": "Concevoir une maquette de présentation",
+
+    "tools": "Outils",
+    "languages": "Langues",
+    "language_1": "Anglais",
+    "language_2": "Français",
+    "language_3": "Tamoul",
+
+    "portfolio": "Portfolios",
+    "project_info": "Information du Projet",
+    "project_cat": "Categorié",
+    "project_client": "Client",
+    "project_motive": "Motif",
+    "project_url": "URL",
+    "personal_project": "Projet Personnel",
+    "project": "Projet",
+
+    "project_cat_1": "Conception de la maquette de présentation",
+    "project_desc_1": "Fédération Française des Associations de sauvegarde des Moulins (FFAM) créée en 1977. Là, ma mission était d'étudier et de réaliser la rétro-ingénierie sur le site de la FFAM. Et les objectifs sont de cartographier la totalité du site, d'identifier les doublons et les faiblesses actuelles, puis de proposer une nouvelle ergonomie.",
+      
+    "project_cat_2": "Conception de sites web",
+    "project_desc_2": "Netfirst est une agence experte en digitalisation de contenus créée en 2011. Chez Netfirst, j'ai travaillé pour de nombreux clients comme Auchan, Lyreco, Société Générale, Atout France, Chanel, Groupe Arcade et bien d'autres. Mes tâches concernent la conception d'un site web nouveau et existant en mode réactif en utilisant HTML5, CSS3, Javascript, Bootstrap4 et jQuery; et le développement des panneaux d'accueil en utilisant l'outil de publication numérique.",
+    
+    "project_cat_3": "Intégration et Développement Web",
+    "project_desc_3": "Moondream est une marque de la Société Brunswick fondée en 1909. C'est un site de e-commerce où j'ai travaillé sur des projets de développement et d'intégration en appliquant une méthodologie agile utilisant des technos comme HTML5, CSS3, Webpack (SASS & SCSS), Javascript, jQuery, Bootstrap4, PHP(v5), MySQL, Twig, Smarty, Prestashop(v1.5 - v1.7) et des outils tels que Git et Gitlab, Redmine, Asana; et j'ai également travaillé sur des requêtes SQL basées sur les besoins du client.",
+
+    "project_cat_4": "Création web en React",
+    "project_desc_4": "Crazy Artsy est un site e-commerce créé en 2020 en utilisant React.js, Bootstrap4 et jQuery pour mon projet personnel.",
+  
+    "project_cat_5": "Portfolio en utilisant React",
+    "project_desc_5": "J'ai créé mon portfolio en utilisant Reactjs, Bootstrap, jQuery, Javascript, CSS3, HTML5 et en utilisant des paquets react comme material-ui, aos, icons, i18next. Dans mon portfolio, j'ai brièvement expliqué mon parcours et les détails de mes projets.",
+  
+    "contact": "Contactez-moi",
+    "mail": "Écrivez-moi à",
+    "phone": "Appelez-moi au"
+}

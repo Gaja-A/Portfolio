@@ -1,0 +1,123 @@
+{
+    "nav_home": "Home",
+    "nav_profile": "Profile",
+    "nav_skills": "Skills",
+    "nav_parcours": "Parcours",
+    "nav_portfolio": "Portfolio",
+    "nav_contact_me": "Contact me",
+    "job_title": "Web Developer Integrator",
+
+    "profile_desc": "Being passionate about new technologies and web development projects, I naturally oriented myself towards a career as a web developer and therefore decided to integrate myself into this field which has always fascinated me.",
+    "profile_title": "Web developer and integrator",
+    "profile_sub" : "My web development skills are reinforced by my specialized courses. And I am an autonomous person with good technical skills. In addition, I have a good sense of analysis, rigor and I am also fluent in English.",
+
+    "dob_title": "Date of birth",
+    "mobile_title": "Mobile",
+    "email": "Email",
+    "license_title": "Driving license",
+    "city_title": "City",
+    "age_title": "Age",
+    "nationality_title": "Nationality",
+    "travel_title": "Travel",
+
+    "dob": "14 April 1997",
+    "driving_license": "B",
+    "city": "Garges-lès-Gonesse, FR",
+    "age": "23 years old",
+    "nationality": "French",
+    "travel": "Île-de-France, FR",
+    "profile_sub_desc": "I am a highly motivated and dedicated candidate with good technical skills. My strong motivation, adaptability and potential are my other assets that will be beneficial to the company's development.",
+
+    "skill_title": "Skills",
+    "skill_desc": "My experience, enhanced by my passion for the internet and technology, has allowed me to acquire the technical and practical skills required to perform the web developer's role. Being proficient in various programming languages, I want to prove my skills in designing and developing applications, software programs and websites.",
+
+    "resume": "Parcours",
+    "resume_title": "Education",
+    
+    "resume_item_title_1": "Conception and Development Front End",
+    "resume_item_level_1": "Certification TOSA",
+    "resume_item_place_1": "GRETA 92, Boulogne-Billancourt, FR",
+    "resume_item_desc_1": "Mastering the entire front end development process, from preliminary specifications through coding to production and maintenance. And acquire solid skills in Reactjs.",
+  
+    "resume_item_title_2": "Expert Digital Architect Web",
+    "resume_item_level_2": "Master II - Formation",
+    "resume_item_place_2": "Digital School of Paris, Paris, FR",
+    "resume_item_desc_2": "Capacity to manage an IT department. And in addition to web expertise, acquired knowledge in the field of management.",
+      
+    "resume_item_title_3": "IT Developer and Designer",
+    "resume_item_level_3": "Master I - Graduated",
+    "resume_item_place_3": "GRETA MTE 93, Montreuil, FR",
+    "resume_item_desc_3": "Based on the analysis of requirements, participate in the detailed specification phase, and implement the solution with the retained technologies.",
+   
+    "resume_item_title_4": "Bachelor of Computer Applications",
+    "resume_item_level_4": "Bachelor - Graduated",
+    "resume_item_place_4": "Saradha Gangadharan College, Pondicherry, INDIA",
+    "resume_item_desc_4": "Deals with the basics of software development and computer applications.",
+   
+    "certification_title": "Certifications",
+    "certification_item_title_1": "Responsive Web Design",
+    "certification_item_place_1": "freeCodeCamp, Distance learning",
+    "certification_item_desc_1": "See the reference",
+   
+    "experience_title": "Work experience",
+    "experience_contract_1": "Work-study",
+    "experience_contract_2": "Internship",
+    "experience_contract_3": "Fixed-term contract",
+
+    "experience_item_title_1": "Web Developer Integrator",
+    "experience_item_place_1": "Gestion Textile Internationale, Aubervilliers, FR",
+    "experience_item1_li_1": "Ensure the maintenance and optimisation of sites in 14 countries via Prestashop",
+    "experience_item1_li_2": "Manage the migration of sites",
+    "experience_item1_li_3": "Analyse technical problems",
+    "experience_item1_li_4": "Carry out tests and create an ergonomic interface",
+    "experience_item1_li_5": "Tracking the quality of development: code review, testing, pre-production and production",
+
+    "experience_item_title_2": "Front-end developer",
+    "experience_item_place_2": "Agence Netfirst, Asnières-sur-Seine, FR",
+    "experience_item2_li_1": "Developing responsive home panels",
+    "experience_item2_li_2": "Designing websites",
+    "experience_item2_li_3": "Making publications on the digital publishing tool",
+    "experience_item2_li_4": "To seek out various technical solutions",
+
+    "experience_item_title_3": "Web Designer",
+    "experience_item_place_3": "Fédération Française des Associations de sauvegarde des Moulins, Noisy-le-Grand, FR",
+    "experience_item3_li_1": "Perform reverse engineering on the FFAM site",
+    "experience_item3_li_2": "Map the entire site",
+    "experience_item3_li_3": "To identify overlaps and current weaknesses",
+    "experience_item3_li_4": "Understand the database and its interfaces with the pages",
+    "experience_item3_li_5": "Design a presentation mock-up",
+
+    "tools": "Tools",
+    "languages": "Languages",
+    "language_1": "English",
+    "language_2": "French",
+    "language_3": "Tamil",
+
+    "portfolio": "Portfolios",
+    "project_info": "Project Information",
+    "project_cat": "Category",
+    "project_client": "Client",
+    "project_motive": "Motive",
+    "project_url": "URL",
+    "personal_project": "Personal Project",
+    "project": "Project",
+    
+    "project_cat_1": "Conception of the presentation lay-out",
+    "project_desc_1": "Fédération Française des Associations de sauvegarde des Moulins (FFAM) created in 1977. There, my mission was to study and carry out reverse engineering on the FFAM site. And the objectives were to map the entire site, to identify duplications and current weaknesses, and then to propose a new user-friendly design.",
+    
+    "project_cat_2": "Website design",
+    "project_desc_2": "Netfirst is an agency expert in digitalisation created in 2011. At Netfirst, I have worked for many clients such as Auchan, Lyreco, Société Générale, Atout France, Chanel, Groupe Arcade and many others. My tasks include the designing of a new and existing website in responsive mode using HTML5, CSS3, Javascript, Bootstrap4 and jQuery; and the development of welcome panels in digital publishing mode.",
+    
+    "project_cat_3": "Web Integration and Development",
+    "project_desc_3": "Moondream is a brand of the Brunswick Company founded in 1909. It is an e-commerce site where I have worked on development and integration projects by applying an agile methodology using technologies such as HTML5, CSS3, Webpack (SASS & SCSS), Javascript, jQuery, Bootstrap4, PHP(v5), MySQL, Twig, Smarty, Prestashop(v1). 5 - v1.7) and tools such as Git and Gitlab, Redmine, Asana; and I have also worked on SQL queries based on the client's requirements.",
+    
+    "project_cat_4": "Website creation in React",
+    "project_desc_4": "Crazy Artsy is an e-commerce website created in 2020 for my personal project using React.js, Bootstrap4 and jQuery.",
+   
+    "project_cat_5": "Portfolio using React",
+    "project_desc_5": "I have created my portfolio using Reactjs, Bootstrap, jQuery, Javascript, CSS3, HTML5 and using react packages like material-ui, aos, icons, i18next. In my portfolio, I briefly explained my background and my project details.",
+  
+    "contact": "Contact me",
+    "mail": "Write me at",
+    "phone": "Call me on"
+}

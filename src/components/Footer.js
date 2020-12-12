@@ -1,4 +1,3 @@
-
 import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';  /* FONT AWESOME ICONS */
 
 const Footer = () => {
