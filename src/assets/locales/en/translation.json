@@ -34,6 +34,7 @@
 
     "resume": "Parcours",
     "resume_title": "Education",
+    "see_ref": "See the reference",
     
     "resume_item_title_1": "Conception and Development Front End",
     "resume_item_level_1": "Certification TOSA",
@@ -41,7 +42,7 @@
     "resume_item_desc_1": "Mastering the entire front end development process, from preliminary specifications through coding to production and maintenance. And acquire solid skills in Reactjs.",
   
     "resume_item_title_2": "Expert Digital Architect Web",
-    "resume_item_level_2": "Master II - Formation",
+    "resume_item_level_2": "Master II - Training",
     "resume_item_place_2": "Digital School of Paris, Paris, FR",
     "resume_item_desc_2": "Capacity to manage an IT department. And in addition to web expertise, acquired knowledge in the field of management.",
       
@@ -58,13 +59,12 @@
     "certification_title": "Certifications",
     "certification_item_title_1": "Responsive Web Design",
     "certification_item_place_1": "freeCodeCamp, Distance learning",
-    "certification_item_desc_1": "See the reference",
    
     "experience_title": "Work experience",
     "experience_contract_1": "Work-study",
     "experience_contract_2": "Internship",
     "experience_contract_3": "Fixed-term contract",
-
+    
     "experience_item_title_1": "Web Developer Integrator",
     "experience_item_place_1": "Gestion Textile Internationale, Aubervilliers, FR",
     "experience_item1_li_1": "Ensure the maintenance and optimisation of sites in 14 countries via Prestashop",
@@ -120,5 +120,6 @@
   
     "contact": "Contact me",
     "mail": "Write me at",
-    "phone": "Call me on"
+    "phone": "Call me on",
+    "download_resume": "Download my CV"
 }

@@ -40,7 +40,7 @@ const PortfolioFfam = () => {
                   <li><strong>{t("project_cat")}</strong>: {t("project_cat_1")}</li>
                   <li><strong>{t("project_client")}</strong>: Fédération Française de sauvegarde des Moulins </li>
                   <li><strong>{t("project_motive")}</strong>: {t("experience_contract_2")}</li>
-                  <li><strong>{t("project_url")}</strong>: <a target="_blank" rel="noopener noreferrer" href="https://www.moulinsdefrance.org/">www.moulinsdefrance.org</a></li>
+                  <li><strong>{t("project_url")}</strong>: <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://www.moulinsdefrance.org/">www.moulinsdefrance.org</a></li>
                 </ul>
                 <p className="portfolio-desc">{t("project_desc_1")}</p>
               </div>

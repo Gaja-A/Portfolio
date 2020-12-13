@@ -49,7 +49,7 @@ const PortfolioGti = () => {
                 <li><strong>{t("project_cat")}</strong>: {t("project_cat_3")}</li>
                 <li><strong>{t("project_client")}</strong>: Moondream </li>
                 <li><strong>{t("project_motive")}</strong>: {t("experience_contract_1")} &amp; {t("experience_contract_3")}</li>
-                <li><strong>{t("project_url")}</strong>: <a target="_blank" rel="noopener noreferrer" href="https://www.moondreamwebstore.fr/">www.moondreamwebstore.fr</a></li>
+                <li><strong>{t("project_url")}</strong>: <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://www.moondreamwebstore.fr/">www.moondreamwebstore.fr</a></li>
               </ul>
               <p className="portfolio-desc">{t("project_desc_3")}</p>
             </div>

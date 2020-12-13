@@ -34,6 +34,7 @@
 
     "resume": "Parcours",
     "resume_title": "Diplômes et Formations",
+    "see_ref": "Voir la référence",
     
     "resume_item_title_1": "Concepteur Développer Front End",
     "resume_item_level_1": "Certification TOSA",
@@ -58,7 +59,6 @@
     "certification_title": "Certifications",
     "certification_item_title_1": "Responsive Web Design",
     "certification_item_place_1": "freeCodeCamp, Formation à distance",
-    "certification_item_desc_1": "Voir la référence",
    
     "experience_title": "Expériences professionnelles",
     "experience_contract_1": "Alternance",
@@ -120,5 +120,6 @@
   
     "contact": "Contactez-moi",
     "mail": "Écrivez-moi à",
-    "phone": "Appelez-moi au"
+    "phone": "Appelez-moi au",
+    "download_resume": "Télécharger mon CV"
 }

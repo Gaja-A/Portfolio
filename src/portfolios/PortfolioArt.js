@@ -47,7 +47,7 @@ const PortfolioArt = () => {
               <ul>
                 <li><strong>{t("project_cat")}</strong>: {t("project_cat_4")}</li>
                 <li><strong>{t("project_motive")}</strong>: {t("personal_project")} </li>
-                <li><strong>{t("project_url")}</strong>: <a target="_blank" rel="noopener noreferrer" href="http://gaja-a.github.io/crazy-artsy/">http://gaja-a.github.io/crazy-artsy</a></li>
+                <li><strong>{t("project_url")}</strong>: <a className="url_link" target="_blank" rel="noopener noreferrer" href="http://gaja-a.github.io/crazy-artsy/">http://gaja-a.github.io/crazy-artsy</a></li>
               </ul>
               <p className="portfolio-desc">{t("project_desc_4")}</p>
             </div>

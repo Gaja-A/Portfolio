@@ -25,9 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 a:focus, a:hover,
 .btn:focus, .btn:hover,
 .language_button:focus,
-.language_button:hover {
-  outline: none;
-  box-shadow: none;
+.language_button:hover,
+.see_ref_btn:hover,
+.see_ref_btn:focus {
+  outline: none!important;
+  box-shadow: none!important;
 }
 
 /*--------------------------------------------------------------
@@ -450,6 +452,11 @@ section {
   border: 2px solid #2f2c61;
 }
 
+.see_ref_btn {
+  font-weight: 500!important;
+  color: #2f2c61!important;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -585,6 +592,12 @@ section {
 
 .portfolio-desc {
   text-align: justify;
+}
+
+.url_link {
+  color: #2f2c61;
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------

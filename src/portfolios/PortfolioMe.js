@@ -39,7 +39,7 @@ const PortfolioMe = () => {
               <ul>
                 <li><strong>{t("project_cat")}</strong>: {t("project_cat_5")}</li>
                 <li><strong>{t("project_motive")}</strong>: {t("personal_project")} </li>
-                <li><strong>{t("project_url")}</strong>: <a target="_blank" rel="noopener noreferrer" href="http://gaja-a.github.io/Portfolio/">http://gaja-a.github.io/portfolio</a></li>
+                <li><strong>{t("project_url")}</strong>: <a className="url_link" target="_blank" rel="noopener noreferrer" href="http://gaja-a.github.io/Portfolio/">http://gaja-a.github.io/portfolio</a></li>
               </ul>
               <p className="portfolio-desc">{t("project_desc_5")}</p>
             </div>
