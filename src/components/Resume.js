@@ -1,49 +1,11 @@
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
-import Modal from "react-bootstrap/Modal";  /* BOOTSTRAP MODAL */
-
-import Netfirst from '../pdf/Netfirst_Reco.pdf'
-import FFAM from '../pdf/FFAM_Reco.pdf'
 
 const Resume = () => {
   const { t } = useTranslation();
 
-  const [isNet, setNet] = useState(false);
-  const [isFfam, setFfam] = useState(false);
-
-  const isOpen = () => {
-    setFfam(true)
-  }
-  const isClose = () => {
-    setFfam(false)
-  }
-
-  const isOpen1 = () => {
-    setNet(true)
-  }
-  const isClose1 = () => {
-    setNet(false)
-  }
-
   return (
 
     <section id="resume" className="resume">
-      
-      {/* FFAM */}
-      <Modal show={isFfam} onHide={isClose}  className="modal fade">
-        <Modal.Body>
-          <button className="modal-close close" onClick={isClose}>&times;</button>
-          <iframe src={FFAM} title="ffam_reco" style={{"width":"100%", "height":"650px"}}></iframe>
-        </Modal.Body>
-      </Modal>
-
-      {/* NETFIRST */}
-      <Modal show={isNet} onHide={isClose1}  className="modal fade">
-        <Modal.Body>
-          <button className="modal-close close" onClick={isClose1}>&times;</button>
-          <iframe src={Netfirst} title="netfirst_reco" style={{"width":"100%", "height":"650px"}}></iframe>
-        </Modal.Body>
-      </Modal>
 
       <div className="container" data-aos="fade-up">
         <div className="section-title">
@@ -86,12 +48,10 @@ const Resume = () => {
             <div className="resume-item">
               <h4>{t("certification_item_title_1")}</h4>
               <h5>2020</h5>
+              <a href="https://freecodecamp.org/certification/fcce6f2fb97-851e-497c-9670-8efd4230cf2e/responsive-web-design" target="_blank" rel="noopener noreferrer" className="btn btn-light ml-2 see_ref_btn">
+                {t("see_ref")}
+              </a>
               <p><em>{t("certification_item_place_1")}</em></p>
-              <p>
-                <a href="https://freecodecamp.org/certification/fcce6f2fb97-851e-497c-9670-8efd4230cf2e/responsive-web-design" target="_blank" rel="noopener noreferrer" className="btn btn-light see_ref_btn">
-                  {t("see_ref")}
-                </a>
-              </p>
             </div>
           </div>
 
@@ -121,7 +81,6 @@ const Resume = () => {
                 <li>{t("experience_item2_li_3")}</li>
                 <li>{t("experience_item2_li_4")}</li>
               </ul>
-              <button className="btn btn-light see_ref_btn" onClick={isOpen1}>{t("see_ref")}</button>
             </div>
 
             <div className="resume-item">
@@ -135,7 +94,6 @@ const Resume = () => {
                 <li>{t("experience_item3_li_4")}</li>
                 <li>{t("experience_item3_li_5")}</li>
               </ul>
-              <button className="btn btn-light see_ref_btn" onClick={isOpen}>{t("see_ref")}</button>
             </div>
 
           </div>

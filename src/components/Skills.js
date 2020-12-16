@@ -10,7 +10,7 @@ const Skills = () => {
 
         <div className="section-title">
           <h2>{t("skill_title")}</h2>
-            <p>{t("skill_desc")}</p>
+          <p>{t("skill_desc")}</p>
         </div>
 
         <div className="row skills-content">

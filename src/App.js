@@ -1,6 +1,4 @@
 import './App.css';
-import './Main.js';
-
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import $ from 'jquery';
@@ -23,7 +21,7 @@ const App = () => {
 
   const { t } = useTranslation();
 
-  /* Init AOS */
+  // Init AOS 
   const aos_init = () => {
     AOS.init({
         duration: 1000,
@@ -40,6 +38,15 @@ const App = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   }
+
+  // Back To Top
+  $(document).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $('.back-to-top').fadeIn('slow');
+    } else {
+        $('.back-to-top').fadeOut('slow');
+    }
+  }); 
 
   return (
     <div className="App">
