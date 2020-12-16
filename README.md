@@ -5,6 +5,7 @@
 - npm install jquery
 - npm install react-icons
 - npm install aos
+- npm install react-scroll
 
 - npm install react-i18next i18next --save
 - npm install i18next-http-backend i18next-browser-languagedetector --save
@@ -12,4 +13,5 @@
 
 ### run the app
 - npm start
+
 

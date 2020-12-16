@@ -22,11 +22,13 @@
     "node-sass": "^5.0.0",
     "popper.js": "^1.16.1",
     "react": "^17.0.1",
+    "react-animation": "^1.2.2",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-i18next": "^11.8.3",
     "react-icons": "^4.1.0",
     "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
     "react-waypoint": "^9.0.3",
     "web-vitals": "^0.2.4"
   },

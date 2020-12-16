@@ -1,3 +1,4 @@
+import { ProgressBar } from 'react-bootstrap';
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
@@ -13,111 +14,148 @@ const Skills = () => {
         </div>
 
         <div className="row skills-content">
+
           <div className="col-lg-6">
+            <div className="progress-skills">
 
-            <div className="progress">
-              <span className="skill">HTML5 / CSS3 <i className="val">100%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>HTML5 / CSS3</span>
+                  <span className="ml-auto">100%</span>
+                </div>
+                <ProgressBar striped now={100} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">Bootstrap 4 <i className="val">100%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Bootstrap 4</span>
+                  <span className="ml-auto">100%</span>
+                </div>
+                <ProgressBar striped now={100} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">JavaScript / ES6 <i className="val">95%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>JavaScript / ES6</span>
+                  <span className="ml-auto">95%</span>
+                </div>
+                <ProgressBar striped now={95} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">React.js <i className="val">75%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>AJAX / JSON</span>
+                  <span className="ml-auto">85%</span>
+                </div>
+                <ProgressBar striped now={85} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">PHP <i className="val">75%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>React.js</span>
+                  <span className="ml-auto">75%</span>
+                </div>
+                <ProgressBar striped now={75} />
               </div>
-            </div>
+              
 
-            <div className="progress">
-              <span className="skill">AngularJS <i className="val">70%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>PHP</span>
+                  <span className="ml-auto">75%</span>
+                </div>
+                <ProgressBar striped now={75} />
               </div>
-            </div>
-
-            <div className="progress">
-              <span className="skill">E-Commerce / CMS / Prestashop <i className="val">90%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>E-Commerce / CMS / Prestashop</span>
+                  <span className="ml-auto">90%</span>
+                </div>
+                <ProgressBar striped now={90} />
               </div>
-            </div>
 
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Infographie</span>
+                  <span className="ml-auto">65%</span>
+                </div>
+                <ProgressBar striped now={65} />
+              </div>
+
+            </div>
           </div>
 
           <div className="col-lg-6">
+            <div className="progress-skills">
 
-            <div className="progress">
-              <span className="skill">Webpack / SASS / SCSS <i className="val">80%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Webpack / SASS / SCSS</span>
+                  <span className="ml-auto">85%</span>
+                </div>
+                <ProgressBar striped now={85} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">Materialize CSS <i className="val">70%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Materialize CSS</span>
+                  <span className="ml-auto">70%</span>
+                </div>
+                <ProgressBar striped now={70} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">jQuery <i className="val">95%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>jQuery</span>
+                  <span className="ml-auto">95%</span>
+                </div>
+                <ProgressBar striped now={95} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">Node.js <i className="val">85%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Node.js</span>
+                  <span className="ml-auto">90%</span>
+                </div>
+                <ProgressBar striped now={90} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">MySQL <i className="val">100%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>AngularJS / VueJS</span>
+                  <span className="ml-auto">70%</span>
+                </div>
+                <ProgressBar striped now={70} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">Smarty / Twig <i className="val">90%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>MySQL</span>
+                  <span className="ml-auto">100%</span>
+                </div>
+                <ProgressBar striped now={100} />
               </div>
-            </div>
 
-            <div className="progress">
-              <span className="skill">Photoshop / Gimp <i className="val">60%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Smarty / Twig</span>
+                  <span className="ml-auto">90%</span>
+                </div>
+                <ProgressBar striped now={90} />
               </div>
-            </div>
 
+              <div className="progressBar">
+                <div className="d-flex">
+                  <span>Photoshop / Gimp</span>
+                  <span className="ml-auto">65%</span>
+                </div>
+                <ProgressBar striped now={65} />
+              </div>
+
+            </div>
           </div>
+
         </div>
 
       </div>

@@ -128,6 +128,11 @@ a:focus, a:hover,
   white-space: nowrap;
 }
 
+.nav-menu a.active {
+  color: #ffffff;
+  background: #2f2c61;
+}
+
 .nav-menu a {
   display: flex;
   align-items: center;
@@ -142,6 +147,7 @@ a:focus, a:hover,
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .nav-menu a svg {
@@ -163,7 +169,7 @@ a:focus, a:hover,
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: #fff!important;
   background: #2f2c61;
   text-decoration: none;
 }
@@ -349,38 +355,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Skills
+# Skills and Tools
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
+.progressBar {
+  padding: 0.5rem 0;
 }
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #e0def9;
-  border-radius: 0.8em;
-}
-
-.skills .progress-bar {
-  width: 1px;
+.skills .progress,
+.tools .progress {
   height: 10px;
-  transition: .9s;
+}
+.skills .progress-bar,
+.tools .progress-bar {
   border-radius: 0.8em;
   background: linear-gradient(45deg, #2f2c614a, #2f2c61);
 }
