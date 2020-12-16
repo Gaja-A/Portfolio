@@ -147,7 +147,7 @@ const App = () => {
        </main>
 
       <Footer />
-      <a href="/#" onClick={scrollToTop} className="back-to-top"><FaArrowUp /></a>
+      <button onClick={scrollToTop} className="btn back-to-top"><FaArrowUp /></button>
 
     </div>
   );
