@@ -201,22 +201,22 @@ a:focus, a:hover,
   cursor: pointer;
   text-align: right;
 }
-
 .mobile-nav-toggle svg {
   color: #2f2c61;
   background: #fff;
 }
-
 .mobile-nav-active {
   overflow: hidden;
 }
-
 .mobile-nav-active #header {
   left: 0;
 }
+#close-active {
+  display: none;
+}
 
 /*--------------------------------------------------------------
-# profile Section
+# Profile Section
 --------------------------------------------------------------*/
 #profile {
   width: 100%;

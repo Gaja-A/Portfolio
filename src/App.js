@@ -3,7 +3,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import $ from 'jquery';
 
-import { FaHome, FaUser, FaFile, FaCode, FaLaptopCode, FaBars, FaArrowUp, FaToolbox } from 'react-icons/fa';  /* FONT AWESOME ICONS */
+import { FaHome, FaUser, FaFile, FaCode, FaLaptopCode, FaBars, FaTimes, FaArrowUp, FaToolbox } from 'react-icons/fa';  /* FONT AWESOME ICONS */
 import * as Scroll from 'react-scroll';
 
 import About from './components/About'
@@ -48,12 +48,27 @@ const App = () => {
     }
   }); 
 
+  // Toggle Menu Bar 
+  const openMenu = () => {
+    $('body').toggleClass('mobile-nav-active');
+    $("#bar-active").show();
+    $("#close-active").hide();
+  }
+  const closeMenu = () => {
+    $('body').toggleClass('mobile-nav-active');
+    $("#close-active").show();
+    $("#bar-active").hide();
+  }
+
   return (
     <div className="App">
       
       <LanguageSelect />
       
-      <button type="button" className="mobile-nav-toggle d-lg-none" onClick={() =>  $('body').toggleClass('mobile-nav-active')}><FaBars /></button>
+      <div className="mobile-nav-toggle d-lg-none">
+        <span id="bar-active" onClick={closeMenu}><FaBars /></span>
+        <span id="close-active" onClick={openMenu}><FaTimes /></span>
+      </div>
       
       <header id="header" className="d-flex flex-column justify-content-center">
         <nav className="nav-menu">
