@@ -53,9 +53,9 @@ const Skills = () => {
               <div className="progressBar">
                 <div className="d-flex">
                   <span>React.js</span>
-                  <span className="ml-auto">75%</span>
+                  <span className="ml-auto">85%</span>
                 </div>
-                <ProgressBar striped now={75} />
+                <ProgressBar striped now={85} />
               </div>
               
 
