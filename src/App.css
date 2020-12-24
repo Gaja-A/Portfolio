@@ -359,18 +359,38 @@ section {
 --------------------------------------------------------------*/
 .progressBar {
   padding: 0.5rem 0;
-}
-.progressBar {
   font-size: 0.9rem;
 }
-.skills .progress,
 .tools .progress {
   height: 10px;
 }
-.skills .progress-bar,
 .tools .progress-bar {
   border-radius: 0.8em;
   background: linear-gradient(45deg, #2f2c614a, #2f2c61);
+}
+.badge-row {
+  justify-content: center;
+}
+.badge-language {
+  background-color: #2f2c61;
+  color: #fff;
+  margin: 10px;
+  display: inline-block;
+  padding: 0.8rem 0.5rem;
+  width: 130px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  border: 1px solid #2f2c61;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.badge-language:hover {
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  color: #2f2c61;
 }
 
 @media (max-width: 992px) {
