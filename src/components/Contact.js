@@ -1,7 +1,5 @@
-import { FaEnvelope, FaPhoneAlt, FaFileDownload } from 'react-icons/fa';  /* FONT AWESOME ICONS */
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';  /* FONT AWESOME ICONS */
 import { useTranslation } from "react-i18next";
-
-import CV from '../pdf/CV.pdf'
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -33,11 +31,6 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="row">
-            <div className="col text-center">
-              <a className="btn see_ref_btn" href={CV} download><FaFileDownload />{t("download_resume")}</a>
-            </div>
-          </div>
         </div>
 
       </div>
