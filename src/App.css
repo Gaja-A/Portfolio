@@ -413,18 +413,34 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #2f2c61;
   position: relative;
+}
+
+.diplomes .resume-item,
+.certifications .resume-item {
+  position: relative;
+  background-color: #e0def9;
+  height: 250px;
+}
+
+.diplomes .resume-item,
+.certifications .resume-item {
+  transition: 0.3s;
+}
+
+.diplomes .resume-item:hover,
+.certifications .resume-item:hover {
+  background-color: #fff;
 }
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 17.2px;
+  font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #2f2c61;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .resume .resume-item h5 {
@@ -446,18 +462,6 @@ section {
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #2f2c61;
 }
 
 .see_ref_btn {

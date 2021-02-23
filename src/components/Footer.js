@@ -1,6 +1,7 @@
 import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';  /* FONT AWESOME ICONS */
 
 const Footer = () => {
+    let anneeEnCours = (new Date()).getFullYear();
     return (
       <footer id="footer">
         <div className="container">
@@ -10,7 +11,7 @@ const Footer = () => {
             <a href="https://github.com/Gaja-A" target="_blank" rel="noopener noreferrer" className="github"><FaGithub /></a>
           </div>
           <div className="copyright">
-            &copy; Copyright - 2020 - Gaja.
+            &copy; Gaja - {anneeEnCours}
           </div>
         </div>
       </footer>
