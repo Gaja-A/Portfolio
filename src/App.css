@@ -416,21 +416,27 @@ section {
   position: relative;
 }
 
-.diplomes .resume-item,
-.certifications .resume-item {
-  position: relative;
+.resume-block .resume-item {
   background-color: #e0def9;
-  height: 250px;
-}
-
-.diplomes .resume-item,
-.certifications .resume-item {
   transition: 0.3s;
 }
 
-.diplomes .resume-item:hover,
-.certifications .resume-item:hover {
+.resume-block .resume-item:hover {
   background-color: #fff;
+}
+
+.resume-block .resume-item {
+  height: 250px;
+}
+
+#certification .resume-item {
+  height: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .resume-block .resume-item {
+    height: 325px;
+  }
 }
 
 .resume .resume-item h4 {
@@ -445,11 +451,19 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background:#e0def9;
+  background: #e0def9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.resume-block .resume-item:hover h5 {
+  background:#e0def9;
+}
+
+.resume-block .resume-item h5 {
+  background:#fff;
 }
 
 .resume .resume-item ul {
@@ -477,8 +491,8 @@ section {
 }
 
 .portfolio .portfolio-item img {
-  width: 300px;
   height: 250px;
+  width: 300px;
   border: 0.1px solid #45505b;
 }
 
@@ -533,32 +547,10 @@ section {
   height: 250px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
+.portfolio .portfolio-wrap .portfolio-info::before,
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
   transition: all 0.5s ease 0s;
-  z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -610,6 +602,13 @@ section {
   color: #2f2c61;
   text-decoration: underline;
   background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio-logo {
+    width: 290px;
+    margin: auto;
+  }
 }
 
 /*--------------------------------------------------------------

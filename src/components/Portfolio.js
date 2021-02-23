@@ -80,7 +80,9 @@ const Portfolio = () => {
           </Modal>
           <div className="col-lg-4 col-md-6 portfolio-item">
             <div className="portfolio-wrap">
-              <img src={FFAMLogo} className="img-fluid" alt=""/>
+              <div className="portfolio-logo">
+                <img src={FFAMLogo} className="img-fluid" alt=""/>
+              </div>
               <div className="portfolio-info">
                 <h4>FFAM</h4>
                 <div className="portfolio-links">
@@ -99,7 +101,9 @@ const Portfolio = () => {
           </Modal>
           <div className="col-lg-4 col-md-6 portfolio-item">
             <div className="portfolio-wrap">
-              <img src={NetfirstLogo} className="img-fluid" alt=""/>
+              <div className="portfolio-logo">
+                <img src={NetfirstLogo} className="img-fluid" alt=""/>
+              </div>
               <div className="portfolio-info">
                 <h4>NETFIRST</h4>
                 <div className="portfolio-links">
@@ -118,7 +122,9 @@ const Portfolio = () => {
           </Modal>
           <div className="col-lg-4 col-md-6 portfolio-item">
             <div className="portfolio-wrap">
-              <img src={MoondreamLogo} className="img-fluid" alt=""/>
+              <div className="portfolio-logo">
+                <img src={MoondreamLogo} className="img-fluid" alt=""/>
+              </div>
               <div className="portfolio-info">
                 <h4>MOONDREAM</h4>
                 <div className="portfolio-links">
@@ -137,7 +143,9 @@ const Portfolio = () => {
           </Modal>
           <div className="col-lg-4 col-md-6 portfolio-item">
             <div className="portfolio-wrap">
-              <img src={CrazyArtsyLogo} className="img-fluid" alt=""/>
+              <div className="portfolio-logo">
+                <img src={CrazyArtsyLogo} className="img-fluid" alt=""/>
+              </div>
               <div className="portfolio-info">
                 <h4>CRAZY ARTSY</h4>
                 <div className="portfolio-links">
@@ -156,7 +164,9 @@ const Portfolio = () => {
           </Modal>
           <div className="col-lg-4 col-md-6 portfolio-item">
             <div className="portfolio-wrap">
-              <img src={PortfolioLogo} className="img-fluid" alt=""/>
+              <div className="portfolio-logo">
+                <img src={PortfolioLogo} className="img-fluid" alt=""/>
+              </div>
               <div className="portfolio-info">
                 <h4>PORTFOLIO</h4>
                 <div className="portfolio-links">

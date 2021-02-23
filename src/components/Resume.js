@@ -13,7 +13,7 @@ const Resume = () => {
         </div>
 
         <h3 className="resume-title">{t("resume_title")}</h3>
-        <div className="row diplomes">
+        <div className="row resume-block">
 
           <div className="col-md-6 col-sm-12">
             <div className="resume-item shadow p-3 mb-5 rounded">
@@ -54,7 +54,7 @@ const Resume = () => {
         </div>
 
         <h3 className="resume-title">{t("certification_title")}</h3>
-        <div className="row certifications">
+        <div className="row resume-block" id="certification">
           <div className="col-md-6 col-sm-12">
             <div className="resume-item shadow p-3 mb-5 rounded">
               <h4>{t("certification_item_title_1")}</h4>
