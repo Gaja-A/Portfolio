@@ -13,3 +13,5 @@
 
 ### run the app
 - npm start
+
+Deploy - github.com/gitname/react-gh-pages
