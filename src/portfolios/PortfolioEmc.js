@@ -6,7 +6,7 @@ import GalerieMobler from '../img/galeriemobler.jpg'
 import Entrepreneuriade from '../img/entrepreneuriade.jpg'
 import WebOrganizer from '../img/organizer.jpg'
 import BookYourHome from '../img/bookyourhome.jpg'
-import VeezPack from '../img/veezPack.jpg'
+import VeezPack from '../img/veezpack.jpg'
 
 import { useTranslation } from "react-i18next"
 
@@ -87,9 +87,8 @@ const PortfolioEmc = () => {
               <h3>{t("project_info")}</h3>
               <ul>
                 <li><strong>{t("project_cat")}</strong>: {t("project_cat_3")}</li>
-                <li><strong>{t("project_client")}</strong>: EMC2 Studio </li>
                 <li><strong>{t("project_motive")}</strong>: {t("experience_contract_4")}</li>
-                <li><strong>{t("project_client")}s</strong>: 
+                <li><strong>{t("project_client")}s</strong>: <br></br>
                     <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://1944.paris/">1944 Paris</a> <br></br>
                     <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://velo9.com/">Velo 9</a> <br></br>
                     <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://memoiredudroit.fr/">Memoire du Droit</a> <br></br>

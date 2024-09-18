@@ -3,7 +3,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import $ from 'jquery';
 
-import { FaHome, FaUser, FaFile, FaCode, FaLaptopCode, FaBars, FaTimes, FaArrowUp, FaToolbox } from 'react-icons/fa';  /* FONT AWESOME ICONS */
+import { FaHome, FaUser, FaFile, FaCode, FaLaptopCode, FaRegHandshake, FaBars, FaTimes, FaArrowUp, FaToolbox } from 'react-icons/fa';  /* FONT AWESOME ICONS */
 import * as Scroll from 'react-scroll';
 
 import About from './components/About'
@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 import Tools from './components/Tools'
+import Recommendations from './components/Recommendations'
 import Skills from './components/Skills'
 
 import { useTranslation } from "react-i18next";
@@ -130,6 +131,17 @@ const App = () => {
             </Link>
 
             <Link
+              to="recommendations"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              <FaRegHandshake />
+              <span>{t("nav_recommendations")}</span>
+            </Link>
+
+            <Link
               to="portfolio"
               spy={true}
               smooth={true}
@@ -157,6 +169,7 @@ const App = () => {
         <Skills />
         <Resume />
         <Tools />
+        <Recommendations />
         <Portfolio />
         <Contact />
        </main>

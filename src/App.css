@@ -402,7 +402,8 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+.resume .resume-title,
+.recommendations .recommendations-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -410,23 +411,30 @@ section {
   color: #45505b;
 }
 
-.resume .resume-item {
+.resume .resume-item,
+.recommendations .recommendations-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   position: relative;
 }
 
-.resume-block .resume-item {
+.resume-block .resume-item,
+.recommendations-block .recommendations-item {
   background-color: #e0def9;
   transition: 0.3s;
 }
 
-.resume-block .resume-item:hover {
+.resume-block .resume-item:hover,
+.recommendations-block .recommendations-item:hover {
   background-color: #fff;
 }
 
 .resume-block .resume-item {
   height: 250px;
+}
+
+.recommendations-block .recommendations-item {
+  height: auto;
 }
 
 #certification .resume-item {
@@ -439,7 +447,8 @@ section {
   }
 }
 
-.resume .resume-item h4 {
+.resume .resume-item h4,
+.recommendations .recommendations-item h4 {
   line-height: 18px;
   font-size: 17px;
   font-weight: 600;
@@ -449,7 +458,8 @@ section {
   margin-bottom: 12px;
 }
 
-.resume .resume-item h5 {
+.resume .resume-item h5,
+.recommendations .recommendations-item h5 {
   font-size: 16px;
   background: #e0def9;
   padding: 5px 15px;
@@ -458,23 +468,28 @@ section {
   margin-bottom: 10px;
 }
 
-.resume-block .resume-item:hover h5 {
+.resume-block .resume-item:hover h5,
+.recommendations-block .recommendations-item:hover h5 {
   background:#e0def9;
 }
 
-.resume-block .resume-item h5 {
+.resume-block .resume-item h5,
+.recommendations-block .recommendations-item h5 {
   background:#fff;
 }
 
-.resume .resume-item ul {
+.resume .resume-item ul,
+.recommendations .recommendations-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.resume .resume-item ul li,
+.recommendations .recommendations-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.resume .resume-item:last-child,
+.recommendations .recommendations-item:last-child {
   padding-bottom: 0;
 }
 

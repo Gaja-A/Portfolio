@@ -27,6 +27,14 @@ const Tools = () => {
 
               <div className="progressBar">
                 <div className="d-flex">
+                  <span>Postman</span>
+                  <span className="ml-auto">80%</span>
+                </div>
+                <ProgressBar striped now={80} />
+              </div>
+
+              <div className="progressBar">
+                <div className="d-flex">
                   <span>Redmine</span>
                   <span className="ml-auto">95%</span>
                 </div>

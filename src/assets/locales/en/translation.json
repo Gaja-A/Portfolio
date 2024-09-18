@@ -4,6 +4,7 @@
     "nav_skills": "Skills",
     "nav_parcours": "Parcours",
     "nav_tools": "Tools",
+    "nav_recommendations": "Recommendations",
     "nav_portfolio": "Projects",
     "nav_contact_me": "Contact me",
     "job_title": "Web Developer Integrator",
@@ -24,7 +25,7 @@
     "dob": "14 April 1997",
     "driving_license": "B",
     "city": "Garges-lès-Gonesse, FR",
-    "age": "23 years old",
+    "age": "27 years old",
     "nationality": "French",
     "travel": "Île-de-France, FR",
     "profile_sub_desc": "I am a highly motivated and dedicated candidate with good technical skills. My strong motivation, adaptability and potential are my other assets that will be beneficial to the company's development.",
@@ -114,6 +115,20 @@
     "language_1": "English",
     "language_2": "French",
     "language_3": "Tamil",
+
+    "recommendations": "Recommendations",
+    
+    "recommendations_item_title_1": "Lesly Lodin",
+    "recommendations_item_place_1": "Trainer and Functional Consultant at BAOBAB INGENIERIETrainer and Functional Consultant at BAOBAB INGENIERIE",
+    "recommendations_item_desc_1_1": "I've known Gaja for over 2 years now. She's a reserved but resourceful young woman who's sure to surprise you with her talents as a web developer (she's a React.js specialist). She has also joined our team of trainers for the months of January/February 2021, to help us run the Web Developer Web Mobile professional titles. She may seem shy at first, but she's a very good technician who knows how to share her experience: that's why I warmly recommend her to you :o)",
+    "recommendations_item_desc_1_2": "I wish you a wonderful career, my dear Gaja.",
+    "recommendations_item_desc_1_3": "You really deserve it.",
+
+    "recommendations_item_title_2": "Guillaume Lefevre",
+    "recommendations_item_place_2": "CTO, project manager in IT web development with an aptitude for open source, entrepreneur and customer relations.",
+    "recommendations_item_desc_2_1": "Right from the start of our collaboration, I could count on Gaja for her unfailing commitment. She distinguished herself by her keen sense of professionalism and exemplary reliability.",
+    "recommendations_item_desc_2_2": "In the face of the challenges facing our team, Gaja demonstrated efficiency, versatility and remarkable adaptability. Whether working face-to-face or remotely, she has always demonstrated a great capacity for concentration and unrivalled responsiveness.",
+    "recommendations_item_desc_2_3": "I knew I could rely on her technical skills in PHP, Prestashop, and WordPress, which have greatly contributed to the success of our projects.",
 
     "portfolio": "Projects",
     "project_info": "Project Information",

@@ -4,6 +4,7 @@
     "nav_skills": "Compétences",
     "nav_parcours": "Parcours",
     "nav_tools": "Outils",
+    "nav_recommendations": "Recommendations",
     "nav_portfolio": "Projets",
     "nav_contact_me": "Contactez-moi",
     "job_title": "Développeuse Intégratrice Web",
@@ -24,7 +25,7 @@
     "dob": "14 Avril 1997",
     "driving_license": "B",
     "city": "Garges-lès-Gonesse, FR",
-    "age": "23 ans",
+    "age": "27 ans",
     "nationality": "Française",
     "travel": "Île-de-France, FR",
     "profile_sub_desc": "Je suis un candidat très motivé et dévoué, doté de bonnes compétences techniques. Ma forte motivation, ma capacité d'adaptation et mon potentiel sont d'autres atouts qui seront bénéfiques au développement d'une entreprise.",
@@ -114,6 +115,20 @@
     "language_1": "Anglais",
     "language_2": "Français",
     "language_3": "Tamoul",
+
+    "recommendations": "Recommandations",
+    
+    "recommendations_item_title_1": "Lesly Lodin",
+    "recommendations_item_place_1": "Formateur et Consultant fonctionnel chez BAOBAB INGENIERIEFormateur et Consultant fonctionnel chez BAOBAB INGENIERIE",
+    "recommendations_item_desc_1_1": "Je connais Gaja depuis plus de 2 ans maintenant. C'est une jeune femme réservée mais pleine de ressources qui saura à coup sûr vous surprendre par ses talents de développeuse Web (elle est spécialiste sur React.js). Elle a en outre renforcé notre équipe de formateurs.trices sur les mois de janvier/février 2021 pour nous prêter main forte sur l'animation de titres pros Développeur Web Web Mobile. Elle a l'air timide au premier abord, mais c'est une très bonne technicienne qui sait partager son expérience : c'est pourquoi je vous la recommande chaleureusement :o)",
+    "recommendations_item_desc_1_2": "Je te souhaite une très jolie carrière ma chère Gaja.",
+    "recommendations_item_desc_1_3": "Tu le mérites vraiment.",
+
+    "recommendations_item_title_2": "Guillaume Lefevre",
+    "recommendations_item_place_2": "CTO, directeur de projet en développement informatique web avec une apétance pour l'open source, entrepreneur et relation client.",
+    "recommendations_item_desc_2_1": "Dès le début de notre collaboration, j'ai pu compter sur Gaja pour son engagement sans faille. Elle s'est distinguée par son sens aigu de la conscience professionnelle et sa fiabilité exemplaire.",
+    "recommendations_item_desc_2_2": "Face aux défis auxquels notre équipe a été confrontée, Gaja a su faire preuve d'efficacité, de polyvalence, et d'une remarquable adaptabilité. Que ce soit en présentiel ou en télétravail, elle a toujours démontré une grande capacité de concentration et une réactivité hors pair.",
+    "recommendations_item_desc_2_3": "Je savais que je pouvais m'appuyer en toute confiance sur ses compétences techniques en PHP, Prestashop, et WordPress, qui ont grandement contribué à la réussite de nos projets.",
 
     "portfolio": "Projets",
     "project_info": "Information du Projet",
