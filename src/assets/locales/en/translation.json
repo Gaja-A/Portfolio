@@ -68,7 +68,15 @@
 
     "experience_item_title_5": "Web Developer Full Stack",
     "experience_item_place_5": "EMC2 Studio, Montmagny, FR",
-    
+    "experience_item5_li_1": "Develop and maintain dynamic, responsive websites based on customer-supplied mockups, ensuring seamless integration of front-end design and back-end functionality.",
+    "experience_item5_li_2": "Contribute to the research and integration of the latest tools and technologies to improve project quality and development efficiency.",
+    "experience_item5_li_3": "Responsible for end-to-end project development, including requirements gathering, design, coding, testing and deployment.",
+    "experience_item5_li_4": "Optimize website speed, SEO and user experience to improve site performance and increase conversions.",
+    "experience_item5_li_5": "Development and optimization of e-commerce websites using PrestaShop and WordPress, implementing design and security best practices and integrating third-party plugins, payment gateways and shipping methods to improve site functionality and performance.",
+    "experience_item5_li_6": "Implementation of custom Wordpress plugins and Prestashop modules, adapted to the customer's needs.",
+    "experience_item5_li_7": "Monitoring development quality: code review, testing, pre-production and production",
+    "experience_item5_li_8": "Developing a CRM using ReactJS for a client in the medical sector that helps them create appointments and synchronize them with their Google calendar using the API.",
+
     "experience_item_title_4": "Mentor",
     "experience_item_place_4": "Baobab Ingénierie, Arpajon, FR",
     "experience_item4_li_1": "To intervene with a public of young and adult job seekers for the professional title DWWM (Developer Web and Web Mobile)",
@@ -131,6 +139,8 @@
     "project_cat_5": "Portfolio using React",
     "project_desc_5": "I have created my portfolio using Reactjs, Bootstrap, jQuery, Javascript, CSS3, HTML5 and using react packages like material-ui, aos, icons, i18next. In my portfolio, I briefly explained my background and my projects in detail.",
   
+    "project_desc_6": "At EMC2 Studio, I've worked on several projects ranging from e-commerce sites (Prestashop and Wordpress) to complex web applications. I have solid experience of technologies such as HTML5, CSS3, Webpack(SASS & SCSS), Javascript, jQuery, AJAX, JSON, ReactJS, Bootstrap, PHP, API, MySQL, Twig, Smarty, Prestashop(v1.5 - v1.8), Wordpress and tools such as Git and Gitlab, Redmine, Postman; and I've also worked on complex SQL queries based on customer requirements.",
+    
     "contact": "Contact me",
     "mail": "Write me at",
     "phone": "Call me on",

@@ -8,12 +8,14 @@ import PortfolioNet from '../portfolios/PortfolioNet'
 import PortfolioGti from '../portfolios/PortfolioGti'
 import PortfolioArt from '../portfolios/PortfolioArt'
 import PortfolioMe from '../portfolios/PortfolioMe'
+import PortfolioEmc from '../portfolios/PortfolioEmc'
 
 import FFAMLogo from '../img/ffam-logo.jpg'
 import NetfirstLogo from '../img/netfirst-logo.jpg'
 import MoondreamLogo from '../img/moondream-logo.jpg'
 import CrazyArtsyLogo from '../img/crazyart-logo.jpg'
 import PortfolioLogo from '../img/portfolio-logo.jpg'
+import EMCLogo from '../img/emc-logo.png'
 
 
 const Portfolio = () => {
@@ -171,6 +173,27 @@ const Portfolio = () => {
                 <h4>PORTFOLIO</h4>
                 <div className="portfolio-links">
                   <button onClick={isActive4} className="btn"><FaEye /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* EMC2 STUDIO */}
+          <Modal show={isShow3} onHide={isHide3}>
+            <Modal.Body>
+              <button className="modal-close close" onClick={isHide3}>&times;</button>
+              <PortfolioEmc />
+            </Modal.Body>
+          </Modal>
+          <div className="col-lg-4 col-md-6 portfolio-item">
+            <div className="portfolio-wrap">
+              <div className="portfolio-logo">
+                <img src={EMCLogo} className="img-fluid" alt=""/>
+              </div>
+              <div className="portfolio-info">
+                <h4>EMC2 Studio</h4>
+                <div className="portfolio-links">
+                  <button onClick={isActive3} className="btn"><FaEye /></button>
                 </div>
               </div>
             </div>

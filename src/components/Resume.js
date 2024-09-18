@@ -71,8 +71,18 @@ const Resume = () => {
         <div className="experiences">
           <div className="resume-item shadow p-3 mb-5 rounded">
             <h4>{t("experience_item_title_5")}</h4>
-            <h5>2021</h5> <em>({t("experience_contract_4")})</em>
+            <h5>2021 - 2024</h5> <em>({t("experience_contract_4")})</em>
               <p><em><strong>{t("experience_item_place_5")}</strong></em></p>
+              <ul>
+                <li>{t("experience_item5_li_1")}</li>
+                <li>{t("experience_item5_li_2")}</li>
+                <li>{t("experience_item5_li_3")}</li>
+                <li>{t("experience_item5_li_4")}</li>
+                <li>{t("experience_item5_li_5")}</li>
+                <li>{t("experience_item5_li_6")}</li>
+                <li>{t("experience_item5_li_7")}</li>
+                <li>{t("experience_item5_li_8")}</li>
+              </ul>
           </div>
 
           <div className="resume-item shadow p-3 mb-5 rounded">

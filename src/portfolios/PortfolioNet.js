@@ -48,7 +48,7 @@ const PortfolioNet = () => {
                 <li><strong>{t("project_cat")}</strong>: {t("project_cat_2")}</li>
                 <li><strong>{t("project_client")}</strong>: Agence Netfirst </li>
                 <li><strong>{t("project_motive")}</strong>: {t("experience_contract_2")}</li>
-                <li><strong>{t("project_url")}</strong>: <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://netfirst.fr/">https://netfirst.fr</a></li>
+                {/* <li><strong>{t("project_url")}</strong>: <a className="url_link" target="_blank" rel="noopener noreferrer" href="https://netfirst.fr/">https://netfirst.fr</a></li> */}
               </ul>
               <p className="portfolio-desc">{t("project_desc_2")}</p>
             </div>
